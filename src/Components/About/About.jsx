@@ -19,8 +19,6 @@ const About = () => {
                 words={[
                   "Student",
                   "Frontend Developer",
-                  "UI/UX Designer",
-                  "Data Science",
                 ]}
                 loop={0}
                 cursor
@@ -44,7 +42,7 @@ const About = () => {
             development skills.
           </p>
           <a
-            href="resume.jpeg"
+            href="/cv.docx"
             target="blank "
             rel="noopener noreferer"
             className="inline-block text-white py-3 px-8 rounded-full mt-5  text-lg  font-bold transition duration-300 transform hover:text-yellow-200 bg-green-200"
@@ -53,7 +51,7 @@ const About = () => {
           </a>
         </div>
         <div className="md:w-1/2 flex justify-center md:justify-end">
-          <img src="men.jpeg" alt="profile" className="w-full h-full rounded-4xl object-cover" />
+          <img src="../src/assets/pic.png" alt="profile" className="w-full h-full rounded-4xl object-cover" />
         </div>
       </div>
     </section>
